@@ -9,7 +9,7 @@
       <h1>Your doge profile</h1>
     </div>
     <p v-if="profile.name">
-      <strong>Name:</strong> {{profile.title}} {{profile.name}}
+      <strong>Name:</strong> {{profile.email}} {{profile.name}}
     </p>
   </div>
 </template>

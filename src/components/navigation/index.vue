@@ -75,7 +75,7 @@
       ...mapGetters(['getProfile', 'isAuthenticated', 'isProfileLoaded']),
       ...mapState({
         authLoading: state => state.auth.status === 'loading',
-        name: state => `${state.user.profile.title} ${state.user.profile.name}`,
+        name: state => `${state.user.profile.email} ${state.user.profile.name}`,
       })
     },
   }
